@@ -1,0 +1,49 @@
+/* CSS Reset */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+body {
+  background-color: #262626;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  min-height: 100vh;
+}
+#logo {
+  width: 8rem;
+  margin-bottom: 2rem;
+}
+.card {
+  background-color: #eee;
+  border-radius: 2.5rem;
+  box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.7);
+  width: 30rem;
+  height: 55rem;
+  overflow: hidden;
+}
+.card-top {
+  width: 100%;
+  height: 50%;
+  background-color: #f1ae04;
+  padding: 3rem;
+}
+.card-title {
+  text-transform: uppercase;
+  letter-spacing: 0.11rem;
+  margin-bottom: 1rem;
+}
+.card-title {
+  color: #fff;
+}
+.card-description {
+  color: #fff;
+  width: 400px;
+}
