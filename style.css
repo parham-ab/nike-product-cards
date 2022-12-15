@@ -27,12 +27,13 @@ body {
   box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.7);
   width: 30rem;
   height: 55rem;
-  overflow: hidden;
+  position: relative;
 }
 .card-top {
   width: 100%;
   height: 50%;
   background-color: #f1ae04;
+  border-radius: 2.5rem 2.5rem 0 0;
   padding: 3rem;
 }
 .card-title {
@@ -46,4 +47,49 @@ body {
 .card-description {
   color: #fff;
   width: 400px;
+}
+.shoes-1 {
+  position: absolute;
+  width: 30rem;
+  top: -2.5rem;
+  right: -10rem;
+}
+/* bottom section */
+.card-bottom {
+  width: 100%;
+  height: 50%;
+  padding: 2rem;
+}
+.card-bottom-title {
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  color: #333;
+  margin-bottom: 0.6rem;
+}
+.card-heading-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.badge {
+  background-color: #25d390;
+  color: #fff;
+  font-size: 0.9rem;
+  width: 3.5rem;
+  right: 5rem;
+  top: 30rem;
+  position: absolute;
+  display: flex;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  justify-content: center;
+  border-radius: 0.3rem;
+}
+.card-bottom-title-1 {
+  margin-bottom: 3rem;
+}
+.card-bottom-title-1 {
+  margin-bottom: 3rem;
 }
