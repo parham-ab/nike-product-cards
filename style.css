@@ -24,11 +24,8 @@ i:last-child {
   align-content: center;
   min-height: 100vh;
 }
-.container{
-  overflow: hidden;
-}
 #logo {
-  width: 8rem;
+  width: 6rem;
   margin-bottom: 2rem;
 }
 .card {
@@ -57,7 +54,6 @@ i:last-child {
 }
 .card-description {
   color: #fff;
-  width: 400px;
 }
 .shoes-1 {
   position: absolute;
@@ -191,5 +187,8 @@ i:last-child {
   background-color: #d35246;
 }
 .container.change .card-top {
+  background-color: #c02244;
+}
+.container.change .price {
   background-color: #c02244;
 }
