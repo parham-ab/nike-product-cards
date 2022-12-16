@@ -10,6 +10,7 @@
 body {
   background-color: #262626;
 }
+/* ----main styles---- */
 i {
   font-size: 0.9rem;
 }
@@ -31,8 +32,8 @@ i:last-child {
   background-color: #eee;
   border-radius: 2.5rem;
   box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.7);
-  width: 30rem;
-  height: 55rem;
+  width: 28rem;
+  height: 45rem;
   position: relative;
 }
 .card-top {
@@ -60,7 +61,7 @@ i:last-child {
   top: -2.5rem;
   right: -10rem;
 }
-/* bottom section */
+/* -----bottom section----- */
 .card-bottom {
   width: 100%;
   height: 50%;
@@ -93,9 +94,6 @@ i:last-child {
   justify-content: center;
   border-radius: 0.3rem;
 }
-.card-bottom-title-1 {
-  margin-bottom: 1rem;
-}
 .card-bottom-title-2 {
   text-transform: uppercase;
 }
@@ -124,11 +122,8 @@ i:last-child {
   background-color: #25d393;
   color: #fff;
 }
-.color {
-  margin: 2rem 0;
-}
 .color h4 {
-  margin: 1.5rem 0;
+  margin: 1rem 0;
 }
 .color-container {
   display: flex;
