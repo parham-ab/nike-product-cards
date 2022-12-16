@@ -9,6 +9,9 @@
 }
 body {
   background-color: #262626;
+  font-family: "Comfortaa", cursive;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 /* ----main styles---- */
 i {
@@ -22,7 +25,7 @@ i:last-child {
   justify-content: center;
   align-items: center;
   align-content: center;
-  min-height: 100vh;
+  height: 100vh;
 }
 #logo {
   width: 6rem;
@@ -32,39 +35,39 @@ i:last-child {
   background-color: #eee;
   border-radius: 2.5rem;
   box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.7);
-  width: 28rem;
-  height: 45rem;
+  width: 20rem;
+  height: 37rem;
   position: relative;
 }
 .card-top {
-  width: 100%;
-  height: 50%;
   background-color: #f1ae04;
   border-radius: 2.5rem 2.5rem 0 0;
-  padding: 3rem;
+  padding: 1.5rem;
   transition: background 0.5;
+  width: 100%;
+  height: 50%;
 }
 .card-title {
   text-transform: uppercase;
   letter-spacing: 0.11rem;
   margin-bottom: 1rem;
-}
-.card-title {
   color: #fff;
+  font-weight: 200;
 }
 .card-description {
+  font-size: 0.8rem;
   color: #fff;
 }
 .shoes-1 {
   position: absolute;
-  width: 30rem;
+  width: 20rem;
   top: -2.5rem;
   right: -10rem;
   transition: transform 1s;
 }
 .shoes-2 {
   position: absolute;
-  width: 33rem;
+  width: 20rem;
   top: -10rem;
   right: -45rem;
   transition: transform 1s;
@@ -77,9 +80,7 @@ i:last-child {
 }
 /* -----bottom section----- */
 .card-bottom {
-  width: 100%;
-  height: 50%;
-  padding: 2rem;
+  padding: 1rem;
 }
 .card-bottom-title {
   font-weight: 500;
@@ -94,15 +95,11 @@ i:last-child {
   justify-content: space-between;
 }
 .badge {
-  background-color: #25d390;
+  background-color: #27ab78;
   color: #fff;
-  font-size: 0.9rem;
-  width: 3.5rem;
-  right: 5rem;
-  top: 30rem;
+  font-size: 0.7rem;
+  width: 3rem;
   display: flex;
-  letter-spacing: 0.1rem;
-  font-weight: bold;
   text-transform: uppercase;
   justify-content: center;
   border-radius: 0.3rem;
@@ -144,8 +141,8 @@ i:last-child {
 .color-1 {
   background-color: #c02244;
   box-shadow: 0 1rem 2rem rgba(192, 34, 68, 0.3);
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
   margin-right: 10px;
   cursor: pointer;
@@ -153,14 +150,14 @@ i:last-child {
 .color-2 {
   background-color: #1c477a;
   box-shadow: 0 1rem 2rem rgba(28, 71, 122, 0.5);
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
   cursor: pointer;
 }
 .price {
-  width: 16rem;
-  height: 4rem;
+  width: 10rem;
+  height: 2rem;
   color: #fff;
   border-radius: 0.5rem;
   position: absolute;
@@ -174,11 +171,10 @@ i:last-child {
   transform: background 0.5s;
 }
 .price span {
-  font-size: 2rem;
+  font-size: 1.4rem;
 }
 .price span:first-child {
-  font-weight: 300;
-  margin-right: 1rem;
+  margin-right: 0.7rem;
 }
 .price span:last-child {
   font-weight: bold;
