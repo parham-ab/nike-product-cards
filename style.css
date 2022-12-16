@@ -24,6 +24,9 @@ i:last-child {
   align-content: center;
   min-height: 100vh;
 }
+.container{
+  overflow: hidden;
+}
 #logo {
   width: 8rem;
   margin-bottom: 2rem;
@@ -42,6 +45,7 @@ i:last-child {
   background-color: #f1ae04;
   border-radius: 2.5rem 2.5rem 0 0;
   padding: 3rem;
+  transition: background 0.5;
 }
 .card-title {
   text-transform: uppercase;
@@ -60,6 +64,20 @@ i:last-child {
   width: 30rem;
   top: -2.5rem;
   right: -10rem;
+  transition: transform 1s;
+}
+.shoes-2 {
+  position: absolute;
+  width: 33rem;
+  top: -10rem;
+  right: -45rem;
+  transition: transform 1s;
+}
+.container.change .shoes-1 {
+  transform: translateX(-50rem) rotateZ(45deg);
+}
+.container.change .shoes-2 {
+  transform: translateX(-40rem) rotateZ(-45deg);
 }
 /* -----bottom section----- */
 .card-bottom {
@@ -157,6 +175,7 @@ i:last-child {
   display: flex;
   justify-content: center;
   align-items: center;
+  transform: background 0.5s;
 }
 .price span {
   font-size: 2rem;
@@ -167,4 +186,10 @@ i:last-child {
 }
 .price span:last-child {
   font-weight: bold;
+}
+.container.change .card-top {
+  background-color: #d35246;
+}
+.container.change .card-top {
+  background-color: #c02244;
 }
