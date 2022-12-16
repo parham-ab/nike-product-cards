@@ -130,14 +130,42 @@ i:last-child {
 }
 .color-1 {
   background-color: #c02244;
+  box-shadow: 0 1rem 2rem rgba(192, 34, 68, 0.3);
   width: 30px;
   height: 30px;
   border-radius: 50%;
   margin-right: 10px;
+  cursor: pointer;
 }
 .color-2 {
   background-color: #1c477a;
+  box-shadow: 0 1rem 2rem rgba(28, 71, 122, 0.5);
   width: 30px;
   height: 30px;
   border-radius: 50%;
+  cursor: pointer;
+}
+.price {
+  width: 16rem;
+  height: 4rem;
+  color: #fff;
+  border-radius: 0.5rem;
+  position: absolute;
+  right: -1rem;
+  bottom: 3rem;
+  background-color: #1c477a;
+  box-shadow: 0 1rem 2rem rgba(25, 71, 122, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.price span {
+  font-size: 2rem;
+}
+.price span:first-child {
+  font-weight: 300;
+  margin-right: 1rem;
+}
+.price span:last-child {
+  font-weight: bold;
 }
