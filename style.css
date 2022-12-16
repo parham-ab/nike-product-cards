@@ -36,7 +36,7 @@ i:last-child {
   border-radius: 2.5rem;
   box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.7);
   width: 20rem;
-  height: 37rem;
+  height: 31rem;
   position: relative;
 }
 .card-top {
@@ -44,8 +44,6 @@ i:last-child {
   border-radius: 2.5rem 2.5rem 0 0;
   padding: 1.5rem;
   transition: background 0.5;
-  width: 100%;
-  height: 50%;
 }
 .card-title {
   text-transform: uppercase;
@@ -60,23 +58,10 @@ i:last-child {
 }
 .shoes-1 {
   position: absolute;
-  width: 20rem;
+  width: 19rem;
   top: -2.5rem;
   right: -10rem;
   transition: transform 1s;
-}
-.shoes-2 {
-  position: absolute;
-  width: 20rem;
-  top: -10rem;
-  right: -45rem;
-  transition: transform 1s;
-}
-.container.change .shoes-1 {
-  transform: translateX(-50rem) rotateZ(45deg);
-}
-.container.change .shoes-2 {
-  transform: translateX(-40rem) rotateZ(-45deg);
 }
 /* -----bottom section----- */
 .card-bottom {
@@ -106,12 +91,15 @@ i:last-child {
 }
 .card-bottom-title-2 {
   text-transform: uppercase;
+  color: rgb(164, 164, 164);
+  font-weight: 200;
+  font-size: 0.8rem;
 }
 .stars {
-  padding-top: 1.2rem;
+  padding-top: 1rem;
 }
 .size-container {
-  margin: 15px 0;
+  margin: 5px 0;
 }
 .size {
   display: flex;
@@ -178,13 +166,4 @@ i:last-child {
 }
 .price span:last-child {
   font-weight: bold;
-}
-.container.change .card-top {
-  background-color: #d35246;
-}
-.container.change .card-top {
-  background-color: #c02244;
-}
-.container.change .price {
-  background-color: #c02244;
 }
