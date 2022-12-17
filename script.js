@@ -50,6 +50,6 @@ color2.addEventListener("click", function () {
   shoe1.style.display = "inline-block";
 });
 color1.addEventListener("click", function () {
-  shoe2.style.display = "inline-block";
   shoe1.style.display = "none";
+  shoe2.style.display = "inline-block";
 });
