@@ -8,7 +8,7 @@
   list-style: none;
 }
 body {
-  background-color: #262626;
+  background-color: #0f0f0f;
   font-family: "Comfortaa", cursive;
   font-family: "M PLUS Rounded 1c", sans-serif;
   font-family: "Nunito", sans-serif;
@@ -63,6 +63,17 @@ i:last-child {
   right: -10rem;
   transition: transform 1s;
 }
+.shoes-2 {
+  position: absolute;
+  width: 19rem;
+  top: -6rem;
+  right: -7rem;
+  transition: transform 1s ease 0s;
+  transform: rotateZ(-40deg);
+  transition: transform 2s ease 0s;
+  display: none;
+}
+
 /* -----bottom section----- */
 .card-bottom {
   padding: 1rem;
@@ -166,4 +177,21 @@ i:last-child {
 }
 .price span:last-child {
   font-weight: bold;
+}
+/* particles-js */
+canvas {
+  display: block;
+  vertical-align: bottom;
+} /* ---- particles.js container ---- */
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+} /* ---- stats.js ---- */
+.count-particles {
+  border-radius: 0 0 3px 3px;
 }
